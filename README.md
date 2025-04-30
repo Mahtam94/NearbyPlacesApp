@@ -29,45 +29,6 @@ A modern iOS app that allows users to search for nearby restaurants, cafés, cin
 - CoreLocation
 - MV-like structure (logic extracted to separate files)
 
----
-
-## 📸 Screenshots
-
-| City Search & Filters | Map View with Zoom |
-|------------------------|--------------------|
-| ![Filters Screenshot](./screenshots/filters.png) | ![Map Screenshot](./screenshots/map.png) |
-
-
----
-
-## 🚀 Features
-
-- 🌍 Manual location search (by city name)
-- ✅ Checkbox filters for types of places
-- 🗺️ Interactive Map:
-  - Zoom in/out with pinch gesture
-  - Pan with swipe
-  - Custom pins with place labels
-- 🧭 Automatic map centering on result city
-- 🛠️ Simple code structure, great for showcasing SwiftUI + MapKit integration
-
----
-
-## 💡 Future Improvements
-
-- Show alert if city is invalid or no places found
-- Display loading spinner while fetching
-- Allow user to tap pin and get more info
-- Optional theme switch (Light/Dark)
-- Add bottom sheet for place previews
-
----
-
-## 📬 Feedback
-
-Pull requests, bug reports, or feedback are always welcome!
-
----
 
 ## 📄 License
 
