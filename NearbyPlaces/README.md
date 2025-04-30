@@ -37,7 +37,6 @@ A modern iOS app that allows users to search for nearby restaurants, cafés, cin
 |------------------------|--------------------|
 | ![Filters Screenshot](./screenshots/filters.png) | ![Map Screenshot](./screenshots/map.png) |
 
-> Make sure to add your actual screenshots to a `screenshots/` folder in the repo.
 
 ---
 
