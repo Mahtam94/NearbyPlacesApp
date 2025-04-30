@@ -14,8 +14,10 @@
 		990733892DBA59D8007151AB /* NearbyPlacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990733882DBA59D8007151AB /* NearbyPlacesTests.swift */; };
 		990733932DBA59D8007151AB /* NearbyPlacesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990733922DBA59D8007151AB /* NearbyPlacesUITests.swift */; };
 		990733952DBA59D8007151AB /* NearbyPlacesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990733942DBA59D8007151AB /* NearbyPlacesUITestsLaunchTests.swift */; };
-		990733A42DBB97AF007151AB /* LocationManagger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990733A32DBB97AF007151AB /* LocationManagger.swift */; };
-		990733A62DBE820F007151AB /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990733A52DBE820F007151AB /* Place.swift */; };
+		99690D432DC24FB200271166 /* GeocoderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99690D422DC24FB200271166 /* GeocoderManager.swift */; };
+		99690D452DC269E100271166 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99690D442DC269E100271166 /* Place.swift */; };
+		99690D472DC26ABF00271166 /* PlaceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99690D462DC26ABF00271166 /* PlaceManager.swift */; };
+		99690D4B2DC2778200271166 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 99690D4A2DC2778200271166 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -61,8 +63,10 @@
 		990733922DBA59D8007151AB /* NearbyPlacesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyPlacesUITests.swift; sourceTree = "<group>"; };
 		990733942DBA59D8007151AB /* NearbyPlacesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyPlacesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		990733A22DBB9456007151AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		990733A32DBB97AF007151AB /* LocationManagger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManagger.swift; sourceTree = "<group>"; };
-		990733A52DBE820F007151AB /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		99690D422DC24FB200271166 /* GeocoderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocoderManager.swift; sourceTree = "<group>"; };
+		99690D442DC269E100271166 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		99690D462DC26ABF00271166 /* PlaceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceManager.swift; sourceTree = "<group>"; };
+		99690D4A2DC2778200271166 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +118,14 @@
 			isa = PBXGroup;
 			children = (
 				990733A22DBB9456007151AB /* Info.plist */,
-				990733A32DBB97AF007151AB /* LocationManagger.swift */,
 				990733772DBA59CD007151AB /* NearbyPlacesApp.swift */,
 				990733792DBA59CD007151AB /* ContentView.swift */,
-				990733A52DBE820F007151AB /* Place.swift */,
+				99690D442DC269E100271166 /* Place.swift */,
+				99690D462DC26ABF00271166 /* PlaceManager.swift */,
+				99690D422DC24FB200271166 /* GeocoderManager.swift */,
 				9907337B2DBA59D8007151AB /* Assets.xcassets */,
 				9907337D2DBA59D8007151AB /* Preview Content */,
+				99690D4A2DC2778200271166 /* README.md */,
 			);
 			path = NearbyPlaces;
 			sourceTree = "<group>";
@@ -254,6 +260,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99690D4B2DC2778200271166 /* README.md in Resources */,
 				9907337F2DBA59D8007151AB /* Preview Assets.xcassets in Resources */,
 				9907337C2DBA59D8007151AB /* Assets.xcassets in Resources */,
 			);
@@ -282,8 +289,9 @@
 			files = (
 				9907337A2DBA59CD007151AB /* ContentView.swift in Sources */,
 				990733782DBA59CD007151AB /* NearbyPlacesApp.swift in Sources */,
-				990733A42DBB97AF007151AB /* LocationManagger.swift in Sources */,
-				990733A62DBE820F007151AB /* Place.swift in Sources */,
+				99690D432DC24FB200271166 /* GeocoderManager.swift in Sources */,
+				99690D452DC269E100271166 /* Place.swift in Sources */,
+				99690D472DC26ABF00271166 /* PlaceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
